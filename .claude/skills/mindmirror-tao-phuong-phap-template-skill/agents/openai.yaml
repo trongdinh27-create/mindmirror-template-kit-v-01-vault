@@ -1,0 +1,4 @@
+interface:
+  display_name: "MindMirror Tạo Phương Pháp Template Skill"
+  short_description: "Tạo phương pháp luận, template và skill vận hành từ một tiêu đề."
+  default_prompt: "Tạo cho anh một phương pháp luận từ tiêu đề: [tiêu đề], kèm template và skill đính trong template."
