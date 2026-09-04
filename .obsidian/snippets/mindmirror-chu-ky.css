@@ -1,0 +1,89 @@
+/* ==========================================================================
+   mindmirror-chu-ky.css — chân trang chữ ký tác giả
+   Bám vào khối đặt ở cuối note, ngay sau dấu "---":
+
+   <div class="mm-chu-ky">🪞 Vault dựng bởi <a href="...">Trọng Đinh — MindMirror</a></div>
+
+   Dùng thẻ <a> thay wikilink để link còn sống khi note rời khỏi Obsidian
+   (PDF xuất ra, copy sang Facebook, Notion, email).
+   ========================================================================== */
+
+/* Dấu "---" phía trên đã render thành <hr>, tức là đường kẻ ngăn cách ĐÃ CÓ.
+   Vì vậy ở đây tuyệt đối không đặt border-top — thêm viền là ra hai đường kẻ
+   chồng nhau cách nhau vài pixel. Khoảng thở với nội dung tạo bằng margin. */
+.mm-chu-ky {
+  margin-block: 2.2em 0.6em;
+  text-align: center;
+
+  /* Nhỏ hơn thân bài đủ để mắt tự xếp nó vào nhóm "siêu dữ liệu" và lướt qua,
+     thay vì đọc nhầm thành một câu lạc lõng trong nội dung. */
+  font-size: 0.78em;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+
+  /* --text-faint đổi giá trị theo theme sáng/tối, nên chữ ký luôn mờ hơn thân
+     bài đúng một bậc ở cả hai theme mà không cần viết mã màu cứng. */
+  color: var(--text-faint);
+
+  /* Cố tình KHÔNG khai báo background ở đây, cũng không ở thẻ con bên trong.
+     Tô nền cả khối cha lẫn khối chữ con là nguyên nhân kinh điển gây chữ sáng
+     nằm trên nền sáng khi người đọc đổi theme. Để trong suốt thì nền trang
+     luôn là nền đúng. */
+
+  /* Pane hẹp hoặc màn hình điện thoại: ngắt dòng cân hai bên, tránh cảnh
+     dòng dưới còn trơ một chữ. */
+  text-wrap: pretty;
+}
+
+/* Rê chuột vào cả khối thì chữ ký sáng lên một bậc: báo "vùng này bấm được"
+   trước cả khi con trỏ trỏ trúng chữ, đỡ phải dò. */
+.mm-chu-ky:hover {
+  color: var(--text-muted);
+}
+
+/* Snippet được nạp SAU CSS của theme, nên chỉ cần độ ưu tiên ngang bằng
+   (.mm-chu-ky a = 0,1,1, bằng .markdown-rendered a của phần lớn theme) là đã
+   đè được. Đó là lý do cả file này không có một chữ !important nào. */
+.mm-chu-ky a {
+  color: var(--text-accent);
+  font-weight: 600;          /* đậm nhẹ: đủ nổi khỏi chữ mờ, chưa thành tiêu đề */
+  text-decoration: none;
+  transition: color 120ms ease;
+}
+
+/* Gạch chân chỉ hiện khi tương tác: lúc nghỉ chân trang giữ được vẻ gọn,
+   lúc rê chuột thì trả lại tín hiệu "đây là link" mà ai cũng quen. */
+.mm-chu-ky a:hover,
+.mm-chu-ky a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+/* Link nằm trong HTML block không phải lúc nào cũng nhận được viền focus mặc
+   định của Obsidian, nên tự vẽ để người dùng bàn phím vẫn thấy mình đang ở đâu. */
+.mm-chu-ky a:focus-visible {
+  outline: 1px solid var(--text-accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ---- In giấy & xuất PDF -------------------------------------------------
+   Trên giấy không còn theme tối để bù sáng: --text-faint in ra gần như biến
+   mất. Khối này kéo chữ ký về mức chữ thường cho đọc được. Link cũng bỏ màu
+   accent, vì máy in đen trắng chỉ biến nó thành một mảng xám NHẠT HƠN chữ
+   thường — đúng ngược ý đồ nhấn mạnh.
+   Đặt cuối file, cùng độ ưu tiên, nên tự thắng các khai báo ở trên mà không
+   cần !important. */
+@media print {
+  .mm-chu-ky {
+    color: var(--text-normal);
+  }
+
+  .mm-chu-ky a {
+    color: inherit;
+    /* Mất màu rồi thì gạch chân là thứ duy nhất còn nói được
+       "chỗ này vốn là một đường link". */
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+  }
+}

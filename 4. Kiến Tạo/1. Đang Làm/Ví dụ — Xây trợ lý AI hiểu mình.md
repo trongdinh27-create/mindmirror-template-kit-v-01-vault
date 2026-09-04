@@ -20,3 +20,7 @@ Một `Me.md` đủ rõ và một prompt khởi động đã được kiểm th�
 - [ ] Hoàn thành `Me.md`
 - [ ] Chọn 3 câu hỏi thật
 - [ ] So sánh đầu ra có/không có context
+
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>

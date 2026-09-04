@@ -42,3 +42,7 @@ tags: [me, identity, profile]
 - Khi thiếu dữ kiện:
 - Cách trình bày tôi dễ hành động:
 - Ranh giới riêng tư:
+
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>

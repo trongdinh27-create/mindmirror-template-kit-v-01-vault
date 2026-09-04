@@ -30,3 +30,7 @@ Một note chỉ được coi là đã chuyển hoá khi:
 - biết giới hạn/điều kiện áp dụng;
 - có liên kết với tri thức khác;
 - gợi được hành động, câu hỏi hoặc đầu ra tiếp theo.
+
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>

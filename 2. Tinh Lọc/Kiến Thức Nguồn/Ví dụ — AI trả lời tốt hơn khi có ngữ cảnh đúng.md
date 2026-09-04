@@ -20,3 +20,7 @@ So sánh cùng một yêu cầu khi AI có và không có `Me.md` cùng bối c�
 ## Liên kết
 
 - [[Ví dụ — Chất lượng đầu ra AI phụ thuộc chất lượng ngữ cảnh]]
+
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>

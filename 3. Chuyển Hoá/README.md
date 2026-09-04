@@ -7,3 +7,7 @@ Nơi tri thức đủ chín được kết tinh để dùng lại lâu dài.
 - `Framework/`: quy trình hoặc mô hình có thể lặp lại.
 
 Xem [[Ví dụ — Chất lượng đầu ra AI phụ thuộc chất lượng ngữ cảnh]].
+
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>

@@ -7,7 +7,7 @@
 - Kiến trúc 4 tầng: `Thu Thập → Tinh Lọc → Chuyển Hoá → Kiến Tạo`.
 - Dashboard, hướng dẫn cài đặt, lộ trình làm quen 7 ngày và ví dụ xuyên suốt.
 - 11 Template cốt lõi và cấu hình Daily Note/Templater.
-- Đóng gói đầy đủ 23 Community Plugins đang dùng trong hệ thống gốc, cùng 5 theme và 7 CSS snippet.
+- Đóng gói đầy đủ 23 Community Plugins đang dùng trong hệ thống gốc, cùng 5 theme và 8 CSS snippet.
 - 34 workflow AI MindMirror canonical trong `.claude/skills/` và adapter Codex tương ứng.
 - Module tùy chọn `6. OPC Company 2Brain/` để xây Não Bộ Doanh Nghiệp sạch.
 - Script setup, cài Hermes wrapper và validator chống lộ dữ liệu/đường dẫn máy.
@@ -42,3 +42,7 @@ python3 scripts/setup.py
 ## Phiên bản
 
 Xem `VERSION` và `CHANGELOG.md`.
+
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>

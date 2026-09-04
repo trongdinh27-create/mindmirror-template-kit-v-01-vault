@@ -55,3 +55,7 @@ tags: [daily-note, tinh-loc]
 - [ ] Thói quen quan trọng nhất:
 - [ ] Vận động / chăm sóc sức khỏe:
 - [ ] Học tập / đọc / viết:
+
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>

@@ -37,3 +37,6 @@ Chúc bạn thành công. Và nếu cần hỗ trợ — tôi ở đây.
 - [[00. BẮT ĐẦU Ở ĐÂY]] — nếu bạn mới mở vault lần đầu.
 - [[+ About MindMirror]] — hiểu triết lý đằng sau hệ thống.
 
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>

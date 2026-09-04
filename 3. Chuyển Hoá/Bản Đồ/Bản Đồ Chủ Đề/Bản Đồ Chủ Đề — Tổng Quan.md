@@ -13,3 +13,7 @@ Tạo một Bản Đồ Chủ Đề khi bạn có khoảng 5 ghi chú cùng mộ
 ## Tri thức mẫu
 
 - [[Ví dụ — Chất lượng đầu ra AI phụ thuộc chất lượng ngữ cảnh]]
+
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>

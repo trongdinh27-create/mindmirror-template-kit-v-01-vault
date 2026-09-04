@@ -6,3 +6,4 @@
 4. Dùng đường dẫn tương đối, không ghi đường dẫn máy cá nhân vào skill.
 5. Không ghi đè note có dữ liệu; patch đúng phần và xác minh sau thay đổi.
 6. Với module doanh nghiệp, đọc `6. OPC Company 2Brain/CLAUDE.md`.
+7. Mọi note tạo mới phải kết thúc bằng khối chữ ký MindMirror (`---` + `<div class="mm-chu-ky">…</div>`) như quy định trong `CLAUDE.md` và cuối mọi Template.

@@ -7,3 +7,7 @@ Cửa vào của MindMirror. Ghi nhanh tín hiệu trước khi quên; chưa c�
 - Ý nghĩa được làm rõ ở Tinh Lọc, không phải tại đây.
 
 Xem [[Ví dụ — Một tín hiệu thô về AI và ngữ cảnh]].
+
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>

@@ -14,3 +14,7 @@ Một model mạnh vẫn có thể đưa lời khuyên lệch hướng nếu kh�
 
 - [[Ví dụ — AI trả lời tốt hơn khi có ngữ cảnh đúng]]
 - [[Ví dụ — Xây trợ lý AI hiểu mình]]
+
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>

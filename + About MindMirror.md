@@ -26,3 +26,7 @@ Thu Thập → Tinh Lọc → Chuyển Hoá → Kiến Tạo → Hiệu chỉnh
 - **Dữ liệu thật trước đầu ra đẹp.**
 - **AI hỗ trợ tư duy, không thay thế bản sắc và phán đoán.**
 - **Hệ thống phải tạo hành động hoặc giá trị, không chỉ tạo cảm giác ngăn nắp.**
+
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>

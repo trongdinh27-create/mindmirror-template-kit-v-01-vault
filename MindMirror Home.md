@@ -46,3 +46,7 @@ LIMIT 7
 ## Module tùy chọn
 
 - [[6. OPC Company 2Brain/README|Não Bộ Doanh Nghiệp — OPC Company 2Brain]]
+
+---
+
+<div class="mm-chu-ky">🪞 Vault dựng bởi <a href="https://www.facebook.com/profile.php?id=61585320965090&amp;locale=vi_VN">Trọng Đinh — MindMirror</a></div>
